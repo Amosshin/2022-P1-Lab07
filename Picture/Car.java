@@ -1,4 +1,6 @@
 package Picture;
+import javafx.scene.layout.Background;
+
 import java.applet.Applet;
 import java.awt.*;
 
@@ -8,13 +10,13 @@ public class Car extends Applet{
         bottom.drawTire(g);
 
 
-        middle.drawdoor(g);
+        middle.drawDoor(g);
         middle.drawWindow(g);
         middle.drawS(g);
-
+        Outside.drawBackground(g);
         Outside.drawShape(g);
         Outside.drawLight(g);
-        Outside.drawSidemirror(g);
+
 
 
 
