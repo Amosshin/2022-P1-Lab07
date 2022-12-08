@@ -4,10 +4,11 @@ import java.applet.Applet;
 import java.awt.*;
 
 public class Outside {
-    public static  void drawShape(Graphics g){
+    public static  void drawCloud(Graphics g){
 g.setColor(new Color(255,228,225));
 g.fillRect(600,450,400,100);
 g.fillRect(650,350,280,100);
+
 
 
     }
@@ -20,7 +21,7 @@ g.fillRect(650,350,280,100);
 
 
     }
-    public static void drawBackground(Graphics g){
+    public static void drawRoad(Graphics g){
         g.drawLine(0,500,1200,500);
         g.setColor(new Color(135,135,135));
         g.fillRect(0,500,1200,400);

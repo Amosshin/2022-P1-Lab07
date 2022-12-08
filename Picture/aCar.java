@@ -5,14 +5,15 @@ import java.awt.*;
 
 public class aCar extends Applet{
     public void paint(Graphics g){
-        Outside.drawBackground(g);
-        Outside.drawShape(g);
+        Outside.drawRoad(g);
+        Outside.drawCloud(g);
+        middle.drawShape(g);
         bottom.drawTire(g);
         bottom.drawWheel(g);
 
-        middle.drawDoor(g);
+
         middle.drawWindow(g);
-        middle.drawS(g);
+        middle.drawLight(g);
 
 
         Outside.drawTree(g);
