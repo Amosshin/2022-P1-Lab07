@@ -18,7 +18,14 @@ public class bottom{
 
 
     }
+public static void drawBumper(Graphics g){
+    g.setColor(new Color(31, 29, 11));
+    g.fillRect(960,520,50,30);
+    g.fillRect(590,520,50,30);
 
+
+
+}
 
 
     }

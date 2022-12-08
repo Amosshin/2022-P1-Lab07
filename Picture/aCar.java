@@ -10,12 +10,9 @@ public class aCar extends Applet{
         middle.drawShape(g);
         bottom.drawTire(g);
         bottom.drawWheel(g);
-
-
+        bottom.drawBumper(g);
         middle.drawWindow(g);
         middle.drawLight(g);
-
-
         Outside.drawTree(g);
 
 
